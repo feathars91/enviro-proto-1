@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "enviroproto124979f41",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

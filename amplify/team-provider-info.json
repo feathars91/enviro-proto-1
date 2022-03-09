@@ -1,0 +1,49 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-enviroproto1-dev-65245-authRole",
+      "UnauthRoleArn": "arn:aws:iam::755956835466:role/amplify-enviroproto1-dev-65245-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::755956835466:role/amplify-enviroproto1-dev-65245-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-enviroproto1-dev-65245-deployment",
+      "UnauthRoleName": "amplify-enviroproto1-dev-65245-unauthRole",
+      "StackName": "amplify-enviroproto1-dev-65245",
+      "StackId": "arn:aws:cloudformation:us-east-1:755956835466:stack/amplify-enviroproto1-dev-65245/d361ce80-9fa7-11ec-aba5-0e3229d7f2c7",
+      "AmplifyAppId": "d1qp9bnzr7hd3p"
+    },
+    "categories": {
+      "auth": {
+        "enviroproto1ab1c1df9": {
+          "userPoolId": "us-east-1_cEOyIyXk6",
+          "userPoolName": "verifyqrsite388b96f0_userpool_388b96f0-dev",
+          "webClientId": "suu4da6fk7mkev77rc1hh6igj",
+          "nativeClientId": "3vuo08hh0ia466fpqcfn9ttnmh",
+          "identityPoolId": "us-east-1:98183818-16d9-4733-a549-95106d9d5dd0",
+          "identityPoolName": "verifyqrsite388b96f0_identitypool_388b96f0__dev",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::755956835466:role/amplify-verifyqrsite-dev-105024-authRole",
+          "authRoleName": "amplify-verifyqrsite-dev-105024-authRole",
+          "unauthRoleArn": "arn:aws:iam::755956835466:role/amplify-verifyqrsite-dev-105024-unauthRole",
+          "unauthRoleName": "amplify-verifyqrsite-dev-105024-unauthRole"
+        }
+      },
+      "storage": {
+        "AmplifyDataStoreh2w7bcchp5hafdyp753oricxaidev": {
+          "tableName": "AmplifyDataStore-h2w7bcchp5hafdyp753oricxai-dev",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:755956835466:table/AmplifyDataStore-h2w7bcchp5hafdyp753oricxai-dev",
+          "partitionKeyName": "ds_pk",
+          "partitionKeyType": "S",
+          "sortKeyName": "ds_sk",
+          "sortKeyType": "S"
+        }
+      },
+      "function": {
+        "enviroproto124979f41": {
+          "deploymentBucketName": "amplify-enviroproto1-dev-65245-deployment",
+          "s3Key": "amplify-builds/enviroproto124979f41-59343656412b5465504a-build.zip"
+        }
+      }
+    }
+  }
+}
