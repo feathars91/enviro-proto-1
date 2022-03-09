@@ -13,6 +13,20 @@
           ]
         }
       ]
+    },
+    "api1595f141": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "enviroproto160d9d80d",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
     }
   },
   "auth": {
@@ -40,6 +54,11 @@
   },
   "function": {
     "enviroproto124979f41": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "enviroproto160d9d80d": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"

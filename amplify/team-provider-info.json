@@ -42,6 +42,10 @@
         "enviroproto124979f41": {
           "deploymentBucketName": "amplify-enviroproto1-dev-65245-deployment",
           "s3Key": "amplify-builds/enviroproto124979f41-59343656412b5465504a-build.zip"
+        },
+        "enviroproto160d9d80d": {
+          "deploymentBucketName": "amplify-enviroproto1-dev-65245-deployment",
+          "s3Key": "amplify-builds/enviroproto160d9d80d-302b30397a7472446161-build.zip"
         }
       }
     }

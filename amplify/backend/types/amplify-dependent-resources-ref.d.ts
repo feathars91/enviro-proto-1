@@ -4,6 +4,11 @@ export type AmplifyDependentResourcesAttributes = {
             "RootUrl": "string",
             "ApiName": "string",
             "ApiId": "string"
+        },
+        "api1595f141": {
+            "RootUrl": "string",
+            "ApiName": "string",
+            "ApiId": "string"
         }
     },
     "hosting": {
@@ -16,6 +21,12 @@ export type AmplifyDependentResourcesAttributes = {
     },
     "function": {
         "enviroproto124979f41": {
+            "Name": "string",
+            "Arn": "string",
+            "Region": "string",
+            "LambdaExecutionRole": "string"
+        },
+        "enviroproto160d9d80d": {
             "Name": "string",
             "Arn": "string",
             "Region": "string",
