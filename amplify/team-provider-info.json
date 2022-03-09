@@ -28,10 +28,10 @@
         }
       },
       "storage": {
-        "AmplifyDataStoreh2w7bcchp5hafdyp753oricxaidev": {
-          "tableName": "AmplifyDataStore-h2w7bcchp5hafdyp753oricxai-dev",
+        "AmplifyDataStore2jojewgk6vhsxaq64bsvbm25fiprod": {
+          "tableName": "AmplifyDataStore-2jojewgk6vhsxaq64bsvbm25fi-prod",
           "region": "us-east-1",
-          "arn": "arn:aws:dynamodb:us-east-1:755956835466:table/AmplifyDataStore-h2w7bcchp5hafdyp753oricxai-dev",
+          "arn": "arn:aws:dynamodb:us-east-1:755956835466:table/AmplifyDataStore-2jojewgk6vhsxaq64bsvbm25fi-prod",
           "partitionKeyName": "ds_pk",
           "partitionKeyType": "S",
           "sortKeyName": "ds_sk",
@@ -81,10 +81,10 @@
         }
       },
       "storage": {
-        "AmplifyDataStoreh2w7bcchp5hafdyp753oricxaidev": {
-          "tableName": "AmplifyDataStore-2jojewgk6vhsxaq64bsvbm25fi-prod",
+        "AmplifyDataStore2jojewgk6vhsxaq64bsvbm25fiprod": {
+          "tableName": "AmplifyDataStore-h2w7bcchp5hafdyp753oricxai-dev",
           "region": "us-east-1",
-          "arn": "arn:aws:dynamodb:us-east-1:755956835466:table/AmplifyDataStore-2jojewgk6vhsxaq64bsvbm25fi-prod",
+          "arn": "arn:aws:dynamodb:us-east-1:755956835466:table/AmplifyDataStore-h2w7bcchp5hafdyp753oricxai-dev",
           "partitionKeyName": "ds_pk",
           "partitionKeyType": "S",
           "sortKeyName": "ds_sk",

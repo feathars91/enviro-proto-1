@@ -3,19 +3,11 @@
   "resourceName": "enviroproto1ab1c1df9",
   "serviceType": "imported",
   "region": "us-east-1",
-  "usernameAttributes": [
-    "email"
-  ],
   "requiredAttributes": [
     "email"
   ],
   "passwordPolicyMinLength": 8,
-  "passwordPolicyCharacters": [
-    "Requires Lowercase",
-    "Requires Uppercase",
-    "Requires Numbers",
-    "Requires Symbols"
-  ],
+  "passwordPolicyCharacters": [],
   "mfaConfiguration": "OFF",
   "autoVerifiedAttributes": [
     "email"
