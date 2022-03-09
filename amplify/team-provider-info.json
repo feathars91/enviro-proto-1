@@ -45,5 +45,52 @@
         }
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-enviroproto1-prod-92427-authRole",
+      "UnauthRoleArn": "arn:aws:iam::755956835466:role/amplify-enviroproto1-prod-92427-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::755956835466:role/amplify-enviroproto1-prod-92427-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-enviroproto1-prod-92427-deployment",
+      "UnauthRoleName": "amplify-enviroproto1-prod-92427-unauthRole",
+      "StackName": "amplify-enviroproto1-prod-92427",
+      "StackId": "arn:aws:cloudformation:us-east-1:755956835466:stack/amplify-enviroproto1-prod-92427/03d10cb0-9fbd-11ec-ac5f-0a409f56bb83",
+      "AmplifyAppId": "d1qp9bnzr7hd3p"
+    },
+    "categories": {
+      "function": {
+        "enviroproto124979f41": {
+          "deploymentBucketName": "amplify-enviroproto1-prod-92427-deployment",
+          "s3Key": "amplify-builds/enviroproto124979f41-59343656412b5465504a-build.zip"
+        }
+      },
+      "auth": {
+        "enviroproto1ab1c1df9": {
+          "userPoolId": "us-east-1_HyLYy03n4",
+          "userPoolName": "multiproto3-dev",
+          "webClientId": "1e7iu7s9r875tqs069fs3qd2d9",
+          "nativeClientId": "3dmuhbh01os7svrrsev5v52va5",
+          "identityPoolId": "us-east-1:87f9cea5-5068-4e67-8f29-8a26e37c50f0",
+          "identityPoolName": "testAuthIdentityPool__dev",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::755956835466:role/amplify-multiproto3-dev-111645-authRole",
+          "authRoleName": "amplify-multiproto3-dev-111645-authRole",
+          "unauthRoleArn": "arn:aws:iam::755956835466:role/amplify-multiproto3-dev-111645-unauthRole",
+          "unauthRoleName": "amplify-multiproto3-dev-111645-unauthRole"
+        }
+      },
+      "storage": {
+        "AmplifyDataStoreh2w7bcchp5hafdyp753oricxaidev": {
+          "tableName": "AmplifyDataStore-2jojewgk6vhsxaq64bsvbm25fi-prod",
+          "region": "us-east-1",
+          "arn": "arn:aws:dynamodb:us-east-1:755956835466:table/AmplifyDataStore-2jojewgk6vhsxaq64bsvbm25fi-prod",
+          "partitionKeyName": "ds_pk",
+          "partitionKeyType": "S",
+          "sortKeyName": "ds_sk",
+          "sortKeyType": "S"
+        }
+      }
+    }
   }
 }
